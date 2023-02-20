@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&family=Nunito+Sans:wght@300&display=swap');
+
+html{
+    /* font-family:'Courier New', Courier, monospace; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight:  400;
+    font-style: italic;
+}
