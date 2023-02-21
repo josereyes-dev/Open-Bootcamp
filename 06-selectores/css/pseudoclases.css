@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hover{
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+
+/* El hover se actuva cuando el raton pasa por encima */
+.hover:hover{ 
+    background-color: blueviolet;
+}
+
+.listado{
+    padding: 15px;
+    background-color: deepskyblue;
+}
+
+.listado p:first-child{
+    color: white;
+}
+
+a:link{  /* Link no visitado aún*/
+    color: crimson;
+}
+
+a:visited{ /* Link visitado*/
+    color: green;
+}
+
+a:active{ /* Color del link mientas doy clic*/
+    color: orange;
+}
