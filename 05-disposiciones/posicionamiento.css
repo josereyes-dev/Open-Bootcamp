@@ -1,0 +1,42 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+/* Posicionamiento relativo - se posiciona en relacion al
+posicionamiento original */
+.relativ{
+    position: relative;
+    left: 80px;
+}
+
+/* Posicionamienot fijo se relaciona en la relacion en 
+relacion a la pantall */
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: greenyellow;
+    z-index: 10;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 30px;
+}
+
+.relativ-container{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+.sticky{
+    position: sticky;
+    background-color: darkcyan;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}
