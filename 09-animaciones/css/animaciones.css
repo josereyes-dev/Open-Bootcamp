@@ -1,0 +1,49 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    animation: traslacion 1s ease-in-out alternate;
+
+    /* transition: transform 1s ease-in 2s; */
+}
+
+.padre:hover .hijo{
+    /* transform: translateX(100%);
+    background-color: violet; */
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0%{
+        background-color: beige;
+        transform: translateX(0%) translateY(0%);
+
+    }
+
+    25%{
+        background-color: red;
+        transform: translatex(100%) translateY(0%);
+    }
+    
+    50%{
+        background-color: green;
+        transform: translatex(100%) translateY(100%);
+    }
+
+    75%{
+        background-color: violet;
+        transform: translatex(0%) translateY(100%);
+    }
+
+    100%{
+        background-color: beige;
+        transform: translatex(0%) translateY(0%);
+    }
+}
+
