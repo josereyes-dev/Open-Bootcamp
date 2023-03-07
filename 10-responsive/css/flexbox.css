@@ -1,0 +1,28 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+
+    /* eje principal */
+    justify-content: space-around;
+
+    /* eje secundario */
+    align-items: center;
+
+    /* los elementos ya se posicionan uno encima del otro
+    responsive */
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    /* se usa self para modificar un solo elemento */
+    align-self: stretch;
+}
