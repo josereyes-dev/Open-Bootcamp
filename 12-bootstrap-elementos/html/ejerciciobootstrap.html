@@ -20,9 +20,24 @@
                     in previous versions of
                     Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
                 </p>
-                <button class="btn btn-primary btn-lg">Example Button</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ejemplo">
+                    Abrir modal
+                </button>
             </div>
         </div>
+
+        <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4 class="modal-header">Modal del Jumbotron</h4>
+                    <div class="modal-body">Modal abierto desde el Jumbotron</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-secundary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="container py-4">
@@ -55,7 +70,8 @@
             <div class="card-body">
                 <h5 class="card-tittle">Jose Luis Reyes</h5>
                 <p class="card-text">Ingeniero de Sistemas con énfasis en Desarrollo web.</p>
-                <p>Vivo en Cali - Colombia <br> Me encuentro reforzando y puliendo mis conocimientos en el desarrollo web ayudándome participando del Bootcamp</p> 
+                <p>Vivo en Cali - Colombia <br> Me encuentro reforzando y puliendo mis conocimientos en el desarrollo
+                    web ayudándome participando del Bootcamp</p>
             </div>
             <div class="card-footer">
                 joseluisreyes0858@gmail.com
