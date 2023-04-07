@@ -1,0 +1,9 @@
+@use "sass:string";
+
+@debug "hola";
+@debug string.index("Helvetica Neue", "Neue"); // 11
+
+$newString: "Helvetica";
+$newString: string.insert($string, "Bold", 9);
+
+@debug $newString;
