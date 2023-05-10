@@ -4,7 +4,7 @@
   "description": "Ejercicio 1 del curso de javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "saludo": "Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programacion del mundo"
   },
   "repository": {
     "type": "git",
