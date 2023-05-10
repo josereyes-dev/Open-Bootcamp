@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio1",
+  "version": "1.0.0",
+  "description": "Ejercicio 1 del curso de javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josereyes-dev/Open-Bootcamp.git"
+  },
+  "author": "Jose Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josereyes-dev/Open-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/josereyes-dev/Open-Bootcamp#readme"
+}
